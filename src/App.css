@@ -1,0 +1,29 @@
+/* @font-face {
+  font-family: 'Gilroy';
+  src:url(../public/fonts/GilroyFinal/GilroyFinal1/Gilroy-Regular.otf);  
+} */ 
+
+ @font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'), url(../public/fonts/gilroy/Gilroy-Bold.ttf) format('truetype');  
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'), url(../public/fonts/gilroy/Gilroy-Bold.ttf) format('truetype');  
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'), url(../public/fonts/gilroy/Gilroy-Medium.ttf) format('truetype');  
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'), url(../public/fonts/gilroy/Gilroy-Medium.ttf) format('truetype');  
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'), url(../public/fonts/gilroy/Gilroy-SemiBold.ttf) format('truetype');  
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'), url(../public/fonts/gilroy/Gilroy-Medium.ttf) format('truetype');  
+  }

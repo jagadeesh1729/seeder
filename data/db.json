@@ -1,0 +1,317 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "Joe",
+      "email": "joe@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": 2,
+      "userName": "Alice",
+      "email": "Alice@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": 3,
+      "userName": "Bob",
+      "email": "B@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "userName": "john",
+      "email": "john@gmail.com",
+      "password": "12345678",
+      "id": 4
+    }
+  ],
+  "contracts": [
+    {
+      "id": 1,
+      "name": "Contract 1",
+      "status": "Available",
+      "totalFinanced": "-",
+      "type": "Monthly",
+      "perPayment": 12000.25,
+      "termLength": {
+        "time": 12,
+        "percent": 12
+      },
+      "paymentAmount": 126722.64
+    },
+    {
+      "id": 2,
+      "name": "Contract 2",
+      "status": "Available",
+      "totalFinanced": "-",
+      "type": "Monthly",
+      "perPayment": 12000.25,
+      "termLength": {
+        "time": 12,
+        "percent": 12
+      },
+      "paymentAmount": 126722.64
+    },
+    {
+      "id": 3,
+      "name": "Contract 3",
+      "status": "Available",
+      "totalFinanced": "-",
+      "type": "Monthly",
+      "perPayment": 6000,
+      "termLength": {
+        "time": 12,
+        "percent": 12
+      },
+      "paymentAmount": 63360
+    },
+    {
+      "id": 4,
+      "name": "Contract 4",
+      "status": "Available",
+      "totalFinanced": "-",
+      "type": "Monthly",
+      "perPayment": 6000,
+      "termLength": {
+        "time": 12,
+        "percent": 12
+      },
+      "paymentAmount": 63360
+    },
+    {
+      "id": 5,
+      "name": "Contract 5",
+      "status": "Available",
+      "totalFinanced": "-",
+      "type": "Monthly",
+      "perPayment": 6000,
+      "termLength": {
+        "time": 12,
+        "percent": 12
+      },
+      "paymentAmount": 63360
+    },
+    {
+      "id": 6,
+      "name": "Contract 6",
+      "status": "Available",
+      "totalFinanced": "-",
+      "type": "Monthly",
+      "perPayment": 6000,
+      "termLength": {
+        "time": 12,
+        "percent": 12
+      },
+      "paymentAmount": 63360
+    }
+  ],
+  "cashKicks": [
+    {
+      "id": 1,
+      "userId": 1,
+      "cashkickName": "google",
+      "contracts": [
+        {
+          "id": 2,
+          "name": "Contract 2",
+          "status": "Available",
+          "totalFinanced": "-",
+          "type": "Monthly",
+          "perPayment": 12000.25,
+          "termLength": {
+            "time": 12,
+            "percent": 12
+          },
+          "paymentAmount": 126722.64
+        },
+        {
+          "id": 3,
+          "name": "Contract 3",
+          "status": "Available",
+          "totalFinanced": "-",
+          "type": "Monthly",
+          "perPayment": 6000,
+          "termLength": {
+            "time": 12,
+            "percent": 12
+          },
+          "paymentAmount": 63360
+        }
+      ],
+      "status": "PENDING",
+      "maturity": "Mar 13 2024",
+      "rate": 12,
+      "term": 12,
+      "totalReceived": 190082.64,
+      "totalFinanced": "212892.56"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "cashkickName": "My secound advance",
+      "contracts": [
+        "contract 1",
+        "contract 6"
+      ],
+      "selectedAmount": 283442.64,
+      "paybackAmount": 288003.3,
+      "rateAmount": 344560.56,
+      "total": 200442.5,
+      "status": "Pending",
+      "maturity": "Apr 03, 2022",
+      "totalReceived": 2300,
+      "totalFinanced": 3400
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "cashkickName": "My first advance",
+      "contracts": [
+        "contract 1",
+        "contract 6",
+        "contract 5"
+      ],
+      "selectedAmount": 283442.64,
+      "paybackAmount": 288003.3,
+      "rateAmount": 344560.56,
+      "total": 200442.5,
+      "status": "Pending",
+      "maturity": "Apr 03, 2022",
+      "totalReceived": 2300,
+      "totalFinanced": 3400
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "cashkickName": "My secound advance",
+      "contracts": [
+        "contract 1",
+        "contract 6"
+      ],
+      "selectedAmount": 283442.64,
+      "paybackAmount": 288003.3,
+      "rateAmount": 344560.56,
+      "total": 200442.5,
+      "status": "Pending",
+      "maturity": "Apr 03, 2022",
+      "totalReceived": 2300,
+      "totalFinanced": 3400
+    }
+  ],
+  "settings": [
+    {
+      "userId": 1,
+      "termCap": "12 months",
+      "availableCredit": 709.45,
+      "maxInterestRate": 12
+    },
+    {
+      "userId": 2,
+      "termCap": "12 months",
+      "availableCredit": 709.45,
+      "maxInterestRate": 12
+    },
+    {
+      "userId": 3,
+      "termCap": "12 months",
+      "availableCredit": 709.45,
+      "maxInterestRate": 12
+    },
+    {
+      "userId": 4,
+      "termCap": "12 months",
+      "availableCredit": 709.45,
+      "maxInterestRate": 12
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "dueDate": "Mar 03 2021",
+      "status": "Upcoming",
+      "expectedAmount": 23009,
+      "outstanding": 45000
+    },
+    {
+      "userId": 2,
+      "dueDate": "Apr 13 2023",
+      "status": "Upcoming",
+      "expectedAmount": "17,741",
+      "outstanding": "195,151",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "dueDate": "May 13 2023",
+      "status": "Upcoming",
+      "expectedAmount": "17,741",
+      "outstanding": "159,669",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "dueDate": "Jun 13 2023",
+      "status": "Upcoming",
+      "expectedAmount": "17,741",
+      "outstanding": "141,928",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "dueDate": "Jul 13 2023",
+      "status": "Upcoming",
+      "expectedAmount": "17,741",
+      "outstanding": "124,187",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "dueDate": "Aug 13 2023",
+      "status": "Upcoming",
+      "expectedAmount": "17,741",
+      "outstanding": "106,446",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "dueDate": "Sep 13 2023",
+      "status": "Upcoming",
+      "expectedAmount": "17,741",
+      "outstanding": "88,705",
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "dueDate": "Oct 13 2023",
+      "status": "Upcoming",
+      "expectedAmount": "17,741",
+      "outstanding": "70,964",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "dueDate": "Nov 13 2023",
+      "status": "Upcoming",
+      "expectedAmount": "17,741",
+      "outstanding": "53,223",
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "dueDate": "Dec 13 2023",
+      "status": "Upcoming",
+      "expectedAmount": "17,741",
+      "outstanding": "35,482",
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "dueDate": "Jan 13 2024",
+      "status": "Upcoming",
+      "expectedAmount": "17,741",
+      "outstanding": "17,741",
+      "id": 11
+    }
+  ]
+}
